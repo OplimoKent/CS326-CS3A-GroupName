@@ -12,6 +12,19 @@ This document defines the roles, responsibilities, and authority levels for all 
 
 ---
 
+## Team Member Assignments
+
+| Role | Team Member | GitHub Username | Email | Status |
+|------|-------------|-----------------|-------|--------|
+| Product Owner | Oplimo, Kent Louie | @OplimoKent | klentoplimo@gmail.com | ✅ Assigned |
+| Scrum Master | Oplimo, Kent Louie | @OplimoKent | klentoplimo@gmail.com | ✅ Assigned |
+| Lead Backend Developer | Oplimo, Kent Louie | @OplimoKent | klentoplimo@gmail.com | ✅ Assigned |
+| Lead Frontend Developer | Oplimo, Kent Louie | @OplimoKent | klentoplimo@gmail.com | ✅ Assigned |
+| QA Engineer | Oplimo, Kent Louie | @OplimoKent | klentoplimo@gmail.com | ✅ Assigned |
+| DevOps/Infrastructure | Oplimo, Kent Louie | @OplimoKent | klentoplimo@gmail.com | ✅ Assigned |
+
+---
+
 ## Role Definitions
 
 ### 1. Product Owner
@@ -306,30 +319,15 @@ This document defines the roles, responsibilities, and authority levels for all 
 
 ---
 
-## Team Member Assignments
-
-**Note:** Replace placeholder names with actual team member GitHub usernames and emails
-
-| Role | Team Member | GitHub Username | Email | Status |
-|------|-------------|-----------------|-------|--------|
-| Product Owner | [To be assigned] | @username | email@example.com | 🔴 Pending |
-| Scrum Master | [To be assigned] | @username | email@example.com | 🔴 Pending |
-| Lead Backend Developer | [To be assigned] | @username | email@example.com | 🔴 Pending |
-| Lead Frontend Developer | [To be assigned] | @username | email@example.com | 🔴 Pending |
-| QA Engineer | [To be assigned] | @username | email@example.com | 🔴 Pending |
-| DevOps/Infrastructure | [To be assigned] | @username | email@example.com | 🔴 Pending |
-
----
-
 ## Communication Channels
 
-- **Team Standup:** Daily at 10:00 AM (15 minutes) - [Slack Channel: #standup]
-- **Slack Workspace:** [To be configured]
+- **Team Standup:** Daily at 10:00 AM (15 minutes)
+- **Slack Workspace:** #cs326-lab1
 - **Project Discussions:** GitHub Discussions (this repository)
-- **Sprint Planning:** Every other Thursday at 2:00 PM
-- **Sprint Review:** Every other Friday at 3:00 PM
-- **Retrospective:** Every other Friday at 4:00 PM
-- **Emergency Contact:** [To be configured]
+- **Sprint Planning:** Every 2 weeks Thursday at 2:00 PM
+- **Sprint Review:** Every 2 weeks Friday at 3:00 PM
+- **Retrospective:** Every 2 weeks Friday at 4:00 PM
+- **Emergency Contact:** klentoplimo@gmail.com
 
 ---
 
@@ -346,112 +344,134 @@ This document defines the roles, responsibilities, and authority levels for all 
 
 ### Escalation Path
 
-1. **Individual discussions** → 2. **Team standup** → 3. **Lead decision** → 4. **Retrospective review**
+1. **Individual decisions** → 2. **Sprint ceremonies** → 3. **Lead decision** → 4. **Retrospective review**
 
 ---
 
 ## Code of Conduct and Team Norms
 
 ### Professional Standards
-- ✅ **Be respectful** - Treat all team members with courtesy and professionalism
-- ✅ **Be responsive** - Respond to messages within 24 hours
+- ✅ **Be respectful** - Maintain professionalism in all work
+- ✅ **Be responsive** - Respond to communications within 24 hours
 - ✅ **Be transparent** - Share blockers and issues early
-- ✅ **Be collaborative** - Help teammates and share knowledge
-- ✅ **Own your work** - Take responsibility for deliverables
-- ✅ **Seek feedback** - Actively request and give constructive feedback
-- ✅ **Continuous improvement** - Reflect and improve processes
+- ✅ **Be collaborative** - Share knowledge and help optimize work
+- ✅ **Own your work** - Take responsibility for all deliverables
+- ✅ **Seek feedback** - Actively request and provide constructive feedback
+- ✅ **Continuous improvement** - Reflect and improve processes regularly
 
 ### Sprint Commitments
 - Attend all sprint ceremonies on time
 - Complete tasks committed in sprint planning
 - Update task status daily
 - Report blockers immediately
-- Participate fully in code reviews
+- Complete code reviews within 24 hours
 - Maintain documentation
 
-### Conflict Resolution
-1. Direct discussion between parties
-2. Mediator (Scrum Master or Lead)
-3. Team discussion in retrospective
-4. Escalate if necessary
+### Time Management (Solo Developer)
+- Core focus hours: 10:00 AM - 3:00 PM for sprint ceremonies and collaboration
+- Flexible working hours for deep work and development
+- Take regular breaks to maintain productivity
+- Balance across all roles to prevent burnout
 
 ---
 
-## Onboarding Checklist for New Team Members
+## Onboarding Checklist (Solo Developer Setup)
 
-**To be completed within first week:**
+**Initial Setup:**
 
-- [ ] GitHub account access granted
-- [ ] Repository cloned and set up locally
-- [ ] Development environment configured
-- [ ] Project documentation reviewed
-- [ ] Team roles and responsibilities understood
-- [ ] Added to Slack workspace and channels
-- [ ] First standup attended
-- [ ] One-on-one with Scrum Master
-- [ ] First task assigned and started
+- [x] GitHub repository access and configuration
+- [x] Development environment set up locally
+- [x] Project documentation reviewed
+- [x] Team roles and responsibilities understood
+- [x] Sprint ceremonies scheduled
 
-**To be completed within first sprint:**
+**Before Sprint 1:**
 
-- [ ] Familiar with codebase and architecture
-- [ ] First PR submitted and merged
-- [ ] Pair programming session with team member
-- [ ] First code review completed
-- [ ] Attended sprint planning, review, and retrospective
-- [ ] Understands team's workflow and practices
-- [ ] Meets all team members
-- [ ] Questions answered and comfortable with team
+- [ ] Create initial project structure
+- [ ] Set up CI/CD pipeline
+- [ ] Configure database environment
+- [ ] Set up testing framework
+- [ ] Create initial code repository structure
+- [ ] Document development workflow
+
+**During Sprint 1:**
+
+- [ ] Complete story 1: User Registration and Account Creation
+- [ ] Complete story 2: User Login Authentication
+- [ ] Complete story 3: Data Persistence and Database Integration
+- [ ] Complete story 4: Error Handling and Validation
+- [ ] Maintain test coverage >80%
+- [ ] Document architectural decisions
 
 ---
 
 ## Performance Review Schedule
 
 - **Sprint Reviews:** Every 2 weeks (after sprint end)
-- **One-on-Ones:** Monthly (with Scrum Master or Lead)
+- **Self-Assessment:** Monthly
+- **Project Retrospectives:** Every sprint
 - **Quarterly Reviews:** Every 3 months (comprehensive review)
-- **Retrospectives:** Every sprint (team process feedback)
 
 ---
 
-## Role Transition Policies
+## Single Developer Considerations
 
-### When a Team Member Changes Roles
+### Role Prioritization by Sprint Phase
 
-1. **Notice Period:** Provide 2 weeks notice if possible
-2. **Knowledge Transfer:** Schedule knowledge transfer sessions
-3. **Documentation:** Update relevant documentation
-4. **Replacement:** Identify and onboard replacement
-5. **Transition Sprint:** May have reduced velocity during transition
+**Sprint Planning Phase:**
+- Focus: Product Owner role (define requirements)
+- Time: ~2-3 hours per sprint
 
-### Backup Roles
+**Development Phase:**
+- Focus: Technical roles (Backend, Frontend, DevOps)
+- Time: ~30-35 hours per sprint
 
-In case a team member is unavailable:
+**Testing & Review Phase:**
+- Focus: QA role (quality assurance)
+- Time: ~5-8 hours per sprint
 
-| Primary Role | Backup 1 | Backup 2 |
-|-------------|----------|----------|
-| Product Owner | Scrum Master | Team Lead |
-| Scrum Master | Product Owner | QA Engineer |
-| Backend Lead | Frontend Lead | DevOps Engineer |
-| Frontend Lead | Backend Lead | QA Engineer |
-| QA Engineer | Product Owner | Backend Lead |
-| DevOps Engineer | Backend Lead | Frontend Lead |
+**Retrospective Phase:**
+- Focus: Scrum Master role (process improvement)
+- Time: ~1 hour per sprint
+
+### Strategies for Managing Multiple Roles
+
+1. **Use time blocks** - Dedicate specific times to each role
+2. **Create checklists** - Separate checklist for each role's responsibilities
+3. **Automate where possible** - Use tools for CI/CD, testing, monitoring
+4. **Document everything** - Clear documentation reduces context switching
+5. **Take breaks** - Switch between roles to maintain focus
+6. **Prioritize ruthlessly** - Focus on most impactful tasks each sprint
 
 ---
 
-## Team Communication Channels
+## Tools and Resources
 
-### Synchronous Communication
-- **Daily Standup:** Weekdays at 10:00 AM (15 minutes)
-- **Sprint Planning:** Every 2 weeks Thursday (2 hours)
-- **Sprint Review:** Every 2 weeks Friday (1 hour)
-- **Sprint Retrospective:** Every 2 weeks Friday (45 minutes)
-- **Pair Programming:** Ad-hoc as needed
+**Recommended Tools by Role:**
 
-### Asynchronous Communication
-- **Slack:** Real-time messaging for quick questions and updates
-- **GitHub Issues/PRs:** Technical discussions and code review
-- **GitHub Discussions:** Project-wide questions and announcements
-- **Email:** Formal communication and documentation
+| Category | Recommended Tools |
+|----------|-------------------|
+| Project Management | GitHub Projects, Trello |
+| Communication | Slack, Discord |
+| Version Control | Git, GitHub |
+| CI/CD | GitHub Actions, Jenkins |
+| Testing | Jest, Cypress, Selenium |
+| Code Quality | SonarQube, ESLint |
+| Database | PostgreSQL, MongoDB |
+| Monitoring | Prometheus, DataDog |
+| Documentation | GitHub Wiki, Confluence |
+
+---
+
+## Work-Life Balance
+
+As a solo developer managing all roles:
+
+- **Set boundaries** - Define clear working hours
+- **Take time off** - Schedule vacation and days off in advance
+- **Delegate learning** - Use resources instead of building everything from scratch
+- **Use templates** - Create reusable templates for common tasks
+- **Celebrate wins** - Recognize completed sprints and milestones
 
 ---
 
@@ -459,13 +479,13 @@ In case a team member is unavailable:
 
 | Date | Author | Changes |
 |------|--------|---------|
-| 2026-05-07 | Team | Initial team roles document created with 6 roles fully defined |
+| 2026-05-07 | Oplimo, Kent Louie | Initial team roles document created with single developer assigned to all roles |
 
 ---
 
 ## Appendix: Role-Specific Workflows
 
-### For Product Owner
+### As Product Owner
 1. Refine backlog during refinement sessions
 2. Write user stories in standard format
 3. Define acceptance criteria clearly
@@ -473,23 +493,31 @@ In case a team member is unavailable:
 5. Accept/reject completed work against criteria
 6. Gather stakeholder feedback regularly
 
-### For Scrum Master
+### As Scrum Master
 1. Plan sprint ceremonies
-2. Facilitate daily standups
+2. Facilitate daily standups (self-reflection)
 3. Update burndown chart
-4. Remove blockers and impediments
-5. Coach team on Agile practices
-6. Facilitate retrospectives and document improvements
+4. Identify and remove blockers
+5. Coach self on Agile practices
+6. Conduct retrospectives and document improvements
 
-### For Development Leads
+### As Backend Developer
 1. Design architecture for features
-2. Review peer code thoroughly
-3. Mentor junior developers
-4. Set coding standards and best practices
-5. Implement features and user stories
-6. Write tests and update documentation
+2. Implement backend APIs and services
+3. Design and manage database schema
+4. Implement security measures
+5. Write backend unit and integration tests
+6. Update technical documentation
 
-### For QA Engineer
+### As Frontend Developer
+1. Design user interface and workflows
+2. Implement responsive UI components
+3. Optimize frontend performance
+4. Ensure cross-browser compatibility
+5. Write frontend tests
+6. Document component APIs
+
+### As QA Engineer
 1. Create comprehensive test plans
 2. Write detailed test cases
 3. Execute manual tests thoroughly
@@ -497,7 +525,7 @@ In case a team member is unavailable:
 5. Report bugs with clear reproduction steps
 6. Verify fixes and perform regression testing
 
-### For DevOps Engineer
+### As DevOps Engineer
 1. Set up development and production environments
 2. Configure and maintain CI/CD pipelines
 3. Handle deployments and rollbacks
